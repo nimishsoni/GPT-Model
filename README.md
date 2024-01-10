@@ -3,6 +3,8 @@ GPT Model trained on tiny-Shakespeare data
 
 The model is trained to generate text for the length provided resembling Shakespeare's text. 
 
+https://github.com/nimishsoni/GPT-Model/blob/main/GPT_Model.ipynb
+
 Key Components of the model are:
 - Word embedding
 - Positional encoding
@@ -19,3 +21,10 @@ Training and Model parameters:
 - Number of embeddings - 384
 - Block size - 256
 - batch-size - 64
+
+https://github.com/nimishsoni/GPT-Model/blob/main/GPT_Model_Optimized.ipynb
+Training Optimization - :
+- Weight Decay
+- Learning Rate Scheduling
+- Gradient Clipping
+- Mixed precision training using Pytoch's Automatic Mixed Precision package
